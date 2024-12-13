@@ -1,0 +1,28 @@
+*{
+  margin: 0px;
+}
+
+body{
+  box-sizing: border-box;
+}
+
+.task-container{
+  display: flex;
+  justify-content: flex-start;
+}
+
+hr{
+  height: 89vh;
+}
+
+
+@media screen and (max-width: 768px){
+  .task-container{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  hr{
+    display: none;
+  }
+}
